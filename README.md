@@ -1,20 +1,30 @@
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+<div align='center'>
+<h1>Nuxt 3 Ultra - Starter Template</h1>
+<img src='https://nuxt.com/assets/design-kit/logo/icon-green.png' alt='Nuxt3 Ultra - Opinionated Nuxt 3 Starter Template' width='344'/>
+</div>
+
+<p align='center'>
+Develop your next web app with <b>Nuxt 3 Ultra </b><sup><em>(speed)</em></sup><br>
+</p>
+
 
 ## Modules
 
 ### This template comes with the following modules:
 
-@nuxtjs/tailwindcss - [Documentation](https://tailwindcss.nuxtjs.org/)
-@nuxtjs/color-mode - [Documentation](https://color-mode.nuxtjs.org/)
-nuxt-headlessui - [Documentation](https://github.com/P4sca1/nuxt-headlessui)
-@heroicons/vue - [Documentation](https://heroicons.com/)
-@nuxtjs/i18n - [Documentation](https://v8.i18n.nuxtjs.org/)
-@pinia/nuxt - [Documentation](https://pinia.vuejs.org/ssr/nuxt.html)
-@pinia-plugin-persistedstate/nuxt - [Documentation](https://prazdevs.github.io/pinia-plugin-persistedstate/frameworks/nuxt-3.html)
-nuxt-gtag - [Documentation](https://github.com/johannschopplich/nuxt-gtag)
-@nuxt/content - [Documentation](https://content.nuxtjs.org/)
-nuxt-simple-sitemap - [Documentation](https://github.com/harlan-zw/nuxt-simple-sitemap)
-nuxt-simple-robots - [Documentation](https://github.com/harlan-zw/nuxt-simple-robots)
+- @nuxtjs/tailwindcss - [Documentation](https://tailwindcss.nuxtjs.org/)
+- @nuxtjs/color-mode - [Documentation](https://color-mode.nuxtjs.org/)
+- nuxt-headlessui - [Documentation](https://github.com/P4sca1/nuxt-headlessui)
+- @heroicons/vue - [Documentation](https://heroicons.com/)
+- @nuxtjs/i18n - [Documentation](https://v8.i18n.nuxtjs.org/)
+- @pinia/nuxt - [Documentation](https://pinia.vuejs.org/ssr/nuxt.html)
+- @pinia-plugin-persistedstate/nuxt - [Documentation](https://prazdevs.github.io/pinia-plugin-persistedstate/frameworks/nuxt-3.html)
+- nuxt-gtag - [Documentation](https://github.com/johannschopplich/nuxt-gtag)
+- @nuxt/content - [Documentation](https://content.nuxtjs.org/)
+- nuxt-simple-sitemap - [Documentation](https://github.com/harlan-zw/nuxt-simple-sitemap)
+- nuxt-simple-robots - [Documentation](https://github.com/harlan-zw/nuxt-simple-robots)
+
+Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more about Nuxt 3.
 
 ## Setup
 
