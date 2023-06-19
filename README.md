@@ -1,11 +1,3 @@
-<div align='center'>
-<h1>Nuxt 3 Ultra - Starter Template</h1>
-<img src='https://nuxt.com/assets/design-kit/logo/icon-green.png' alt='Nuxt3 Ultra - Opinionated Nuxt 3 Starter Template' width='344'/>
-</div>
-
-<p align='center'>
-Develop your next web app with <b>Nuxt 3 Ultra </b><sup><em>(speed)</em></sup><br>
-</p>
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
 ## Modules
