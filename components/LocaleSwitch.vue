@@ -17,7 +17,7 @@ const switchLocalePath = useSwitchLocalePath()
         <MenuItem as="div" class="hover:bg-gray-200 dark:hover:bg-primary-700">
           <NuxtLink :to="switchLocalePath('en')" class="flex items-center gap-2 px-4 py-2 text-sm text-zinc-600 dark:text-zinc-100 w-full">
             <img src="/us.svg" class="h-6 w-8" aria-hidden="true" />
-            <span class="text-zinc-600 dark:text-zinc-100 hover:bg-gradient-to-r from-primary-800 via-primary-600 to-primary-500">English</span>
+            <span class="text-zinc-600 dark:text-zinc-100">English</span>
           </NuxtLink>
         </MenuItem>
         <MenuItem as="div" class="hover:bg-gray-200 dark:hover:bg-primary-700">

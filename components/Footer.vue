@@ -1,15 +1,15 @@
 <template>
   <footer class="text-gray-600 body-font">
-    <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+    <div class="container px-5 py-8 mx-auto flex items-center md:flex-row flex-col">
       <NuxtLink :to="localePath('/')" class="flex font-medium items-center text-zinc-900 dark:text-zinc-50 mb-4 md:mb-0">
         <img src="/nuxt-logo.svg" alt="logo" class="w-10 h-10" />
         <span class="ml-3 text-xl">Nuxt Ultra</span>
       </NuxtLink>
-      <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
+      <p class="order-1 md:order-none text-sm text-gray-500 md:ml-4 md:pl-4 md:border-l-2 md:border-gray-200 md:py-2 md:mt-0 mt-4">
         © {{ currentYear }} Your Awsome Company —
         <a href="https://twitter.com/KSalout" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">@KSalout</a>
       </p>
-      <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+      <span class="inline-flex md:ml-auto md:mt-0 mt-4 justify-center md:justify-start">
         <a class="text-gray-500">
           <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
             <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
