@@ -1,6 +1,5 @@
 <script setup>
 import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/vue'
-import { LanguageIcon } from '@heroicons/vue/24/outline'
 const switchLocalePath = useSwitchLocalePath()
 </script>
 
@@ -9,7 +8,7 @@ const switchLocalePath = useSwitchLocalePath()
     <div>
       <MenuButton class="flex rounded-full bg-zinc-200 dark:bg-zinc-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800 p-2">
         <span class="sr-only">Language</span>
-        <LanguageIcon class="h-7 w-7 text-zinc-600 dark:text-zinc-100" aria-hidden="true" />
+        <Icon name="heroicons:language" class="h-7 w-7 text-zinc-600 dark:text-zinc-100" aria-hidden="true" />
       </MenuButton>
     </div>
     <transition enter-active-class="transition ease-out duration-100" enter-from-class="transform opacity-0 scale-95" enter-to-class="transform opacity-100 scale-100" leave-active-class="transition ease-in duration-75" leave-from-class="transform opacity-100 scale-100" leave-to-class="transform opacity-0 scale-95">

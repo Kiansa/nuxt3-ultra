@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   runtimeConfig: {
     public: {
-      siteUrl: 'https://yoursite.com', // change this to your site URL
+      siteUrl: 'https://nuxt3-ultra.vercel.app/', // change this to your site URL
     },
   },
 
@@ -22,6 +22,7 @@ export default defineNuxtConfig({
     'nuxt-simple-robots',
     '@nuxtjs/color-mode',
     '@nuxtjs/i18n',
+    'nuxt-icon',
   ],
 
   i18n: {
@@ -34,7 +35,7 @@ export default defineNuxtConfig({
     },
     langDir: 'locales',
     lazy: true,
-    baseUrl: 'http://localhost:3000',
+    baseUrl: 'https://nuxt3-ultra.vercel.app/', // change this to your site URL
     locales: [
       {
         code: 'en',
