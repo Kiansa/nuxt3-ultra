@@ -27,12 +27,12 @@ export default defineNuxtConfig({
 
   i18n: {
     experimental: {
-      jsTsFormatResource: true,
+      jsTsFormatResource: false,
     },
-    precompile: {
-      strictMessage: false,
-      escapeHtml: true,
-    },
+    // precompile: {
+    //   strictMessage: false,
+    //   escapeHtml: true,
+    // },
     langDir: 'locales',
     lazy: true,
     baseUrl: 'https://nuxt3-ultra.vercel.app/', // change this to your site URL
