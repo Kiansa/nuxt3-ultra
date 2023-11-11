@@ -7,20 +7,21 @@
 Develop your next web app with <b>Nuxt 3 Ultra </b><sup><em>(speed)</em></sup><br>
 </p>
 
-
 ## Modules
 
 ### This template comes with the following modules:
 
-- @nuxtjs/tailwindcss - [Documentation](https://tailwindcss.nuxtjs.org/)
-- @nuxtjs/color-mode - [Documentation](https://color-mode.nuxtjs.org/)
-- nuxt-headlessui - [Documentation](https://github.com/P4sca1/nuxt-headlessui)
-- @heroicons/vue - [Documentation](https://heroicons.com/)
+- @nuxtjs/tailwindcss - [Documentation](https://tailwindcss.nuxtjs.org/) removed! now includes in @nuxt/ui
+- @nuxtjs/color-mode - [Documentation](https://color-mode.nuxtjs.org/) removed! now includes in @nuxt/ui
+- nuxt-headlessui - [Documentation](https://github.com/P4sca1/nuxt-headlessui) removed! now includes in @nuxt/ui
+- @heroicons/vue - [Documentation](https://heroicons.com/) removed! now includes in @nuxt/ui or nuxt-icon
+- @nuxt/ui - [Documentation](https://ui.nuxt.com/)
+- nuxt-icon - [Documentation](https://github.com/nuxt-modules/icon#readme)
 - @nuxtjs/i18n - [Documentation](https://v8.i18n.nuxtjs.org/)
 - @pinia/nuxt - [Documentation](https://pinia.vuejs.org/ssr/nuxt.html)
 - @pinia-plugin-persistedstate/nuxt - [Documentation](https://prazdevs.github.io/pinia-plugin-persistedstate/frameworks/nuxt-3.html)
 - nuxt-gtag - [Documentation](https://github.com/johannschopplich/nuxt-gtag)
-- @nuxt/content - [Documentation](https://content.nuxtjs.org/)
+- @nuxt/content - [Documentation](https://content.nuxt.com/)
 - nuxt-simple-sitemap - [Documentation](https://github.com/harlan-zw/nuxt-simple-sitemap)
 - nuxt-simple-robots - [Documentation](https://github.com/harlan-zw/nuxt-simple-robots)
 
