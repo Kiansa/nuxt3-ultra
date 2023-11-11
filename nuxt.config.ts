@@ -6,10 +6,24 @@ export default defineNuxtConfig({
     },
   },
 
+  app: {
+    head: {
+      link: [
+        { rel: 'icon', href: '/favicon.ico' },
+        { rel: 'preconnect', href: 'https://rsms.me/' },
+        { rel: 'stylesheet', href: 'https://rsms.me/inter/inter.css' },
+      ],
+      htmlAttrs: {
+        lang: 'en',
+        class: 'scroll-smooth antialiased',
+      },
+    },
+    pageTransition: { name: 'page', mode: 'out-in' },
+  },
+
   modules: [
-    'nuxt-headlessui',
-    '@nuxtjs/tailwindcss',
     '@nuxt/content', // remove this if you don't want to use @nuxt/content for your blog
+    '@nuxt/ui',
     [
       '@pinia/nuxt',
       {
@@ -20,7 +34,6 @@ export default defineNuxtConfig({
     'nuxt-gtag',
     'nuxt-simple-sitemap',
     'nuxt-simple-robots',
-    '@nuxtjs/color-mode',
     '@nuxtjs/i18n',
     'nuxt-icon',
   ],
@@ -73,7 +86,7 @@ export default defineNuxtConfig({
     detectBrowserLanguage: {
       useCookie: true,
       cookieKey: 'i18n_redirected',
-      redirectOn: 'root',  // recommended
+      redirectOn: 'root', // recommended
     },
     vueI18n: './i18n.config.ts',
   },

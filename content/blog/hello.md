@@ -1,9 +1,11 @@
 ---
-title: 'Streamlining Your Development Process: Setting up Nuxt.js v3 with Tailwind CSS'
-meta: Learn how to set up Nuxt.js v3 and Tailwind CSS for a faster and more efficient web development process. Boost your productivity and design stunning websites in no time
+title: 'My awsome post title'
+meta: 'This is the meta description'
 date: 17 Jan 2023
-img: https://api.kiansalout.com/assets/d7bad922-4368-4b02-9e8f-bcadd6b19780
+img: https://images.unsplash.com/photo-1485988412941-77a35537dae4?q=80&w=2096&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 tags: ['Nuxt', 'Tailwind']
+author: 'John Doe'
+authorAvatar: https://i.pravatar.cc/300
 ---
 
 # Hello.md

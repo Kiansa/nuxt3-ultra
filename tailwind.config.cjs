@@ -7,15 +7,6 @@ module.exports = {
       backgroundImage: {
         'gradient-conic': 'conic-gradient(var(--tw-gradient-stops))',
       },
-      keyframes: {
-        disco: {
-          '0%': { transform: 'translateY(-50%) rotate(0deg)' },
-          '100%': { transform: 'translateY(-50%) rotate(360deg)' },
-        },
-      },
-      animation: {
-        disco: 'disco 1.5s linear infinite',
-      },
       fontFamily: {
         inter: ['Inter var', 'sans-serif'],
       },
@@ -25,20 +16,6 @@ module.exports = {
       maxWidth: {
         '8xl': '96rem',
         '9xl': '128rem',
-      },
-      colors: {
-        primary: {
-          50: '#f5f0ff',
-          100: '#ede4ff',
-          200: '#dccdff',
-          300: '#c4a5ff',
-          400: '#aa72ff',
-          500: '#933aff',
-          600: '#8b12ff',
-          700: '#7f01ff',
-          800: '#6b00d7',
-          900: '#47028d',
-        },
       },
       fontSize: {
         xs: ['0.75rem', { lineHeight: '1.5' }],
