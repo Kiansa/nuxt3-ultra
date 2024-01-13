@@ -15,7 +15,7 @@ export default defineNuxtConfig({
       ],
       htmlAttrs: {
         lang: 'en',
-        class: 'scroll-smooth antialiased',
+        class: 'scroll-smooth',
       },
     },
     pageTransition: { name: 'page', mode: 'out-in' },
@@ -32,17 +32,11 @@ export default defineNuxtConfig({
     ],
     '@pinia-plugin-persistedstate/nuxt',
     'nuxt-gtag',
-    'nuxt-simple-sitemap',
-    'nuxt-simple-robots',
     '@nuxtjs/i18n',
-    'nuxt-icon',
   ],
 
   i18n: {
-    experimental: {
-      jsTsFormatResource: false,
-    },
-    // precompile: {
+    // compilation: {
     //   strictMessage: false,
     //   escapeHtml: true,
     // },
@@ -77,7 +71,6 @@ export default defineNuxtConfig({
     // strategy: 'prefix_and_default',
     strategy: 'prefix_except_default',
     // rootRedirect: '/ja/about-ja',
-    dynamicRouteParams: true,
     // customRoutes: 'config',
 
     // differentDomains: true,
