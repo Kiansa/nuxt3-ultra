@@ -1,6 +1,6 @@
 <div align='center'>
 <h1>Nuxt 3 Ultra - Starter Template</h1>
-<img src='https://nuxt.com/assets/design-kit/logo/icon-green.png' alt='Nuxt3 Ultra - Opinionated Nuxt 3 Starter Template' width='344'/>
+<img src='https://nuxt.com/assets/design-kit/icon-green.svg' alt='Nuxt3 Ultra - Opinionated Nuxt 3 Starter Template' width='344'/>
 </div>
 
 <p align='center'>
