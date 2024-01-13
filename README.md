@@ -11,19 +11,22 @@ Develop your next web app with <b>Nuxt 3 Ultra </b><sup><em>(speed)</em></sup><b
 
 ### This template comes with the following modules:
 
-- @nuxtjs/tailwindcss - [Documentation](https://tailwindcss.nuxtjs.org/) removed! now includes in @nuxt/ui
-- @nuxtjs/color-mode - [Documentation](https://color-mode.nuxtjs.org/) removed! now includes in @nuxt/ui
-- nuxt-headlessui - [Documentation](https://github.com/P4sca1/nuxt-headlessui) removed! now includes in @nuxt/ui
-- @heroicons/vue - [Documentation](https://heroicons.com/) removed! now includes in @nuxt/ui or nuxt-icon
+- nuxt-headlessui - [Documentation](https://github.com/P4sca1/nuxt-headlessui)
 - @nuxt/ui - [Documentation](https://ui.nuxt.com/)
-- nuxt-icon - [Documentation](https://github.com/nuxt-modules/icon#readme)
 - @nuxtjs/i18n - [Documentation](https://v8.i18n.nuxtjs.org/)
 - @pinia/nuxt - [Documentation](https://pinia.vuejs.org/ssr/nuxt.html)
 - @pinia-plugin-persistedstate/nuxt - [Documentation](https://prazdevs.github.io/pinia-plugin-persistedstate/frameworks/nuxt-3.html)
 - nuxt-gtag - [Documentation](https://github.com/johannschopplich/nuxt-gtag)
 - @nuxt/content - [Documentation](https://content.nuxt.com/)
-- nuxt-simple-sitemap - [Documentation](https://github.com/harlan-zw/nuxt-simple-sitemap)
-- nuxt-simple-robots - [Documentation](https://github.com/harlan-zw/nuxt-simple-robots)
+- @nuxtjs/seo - [Documentation](https://nuxtseo.com/nuxt-seo/getting-started/installation)
+
+### Latest Changes
+- nuxt-icon - [Documentation](https://github.com/nuxt-modules/icon#readme) (removed! now includes in @nuxt/ui)
+- @nuxtjs/tailwindcss - [Documentation](https://tailwindcss.nuxtjs.org/) (removed! now includes in @nuxt/ui)
+- @nuxtjs/color-mode - [Documentation](https://color-mode.nuxtjs.org/) (removed! now includes in @nuxt/ui)
+- @heroicons/vue - [Documentation](https://heroicons.com/) (removed! now includes in @nuxt/ui)
+- nuxt-simple-sitemap - [Documentation](https://github.com/harlan-zw/nuxt-simple-sitemap)(removed! now includes in @nuxtjs/seo
+- nuxt-simple-robots - [Documentation](https://github.com/harlan-zw/nuxt-simple-robots)(removed! now includes in @nuxtjs/seo)
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more about Nuxt 3.
 
@@ -57,7 +60,7 @@ pnpm run dev
 yarn dev
 ```
 
-## Production For SSG (For most common use cases)
+## Production For SSG
 
 ```bash
 # npm
