@@ -1,5 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  future: {
+    compatibilityVersion: 4,
+  },
+
   runtimeConfig: {
     public: {
       siteUrl: process.env.SITE_URL, // change this to your site URL
@@ -88,4 +92,5 @@ export default defineNuxtConfig({
   },
 
   devtools: { enabled: true },
+  compatibilityDate: '2024-08-05',
 })
