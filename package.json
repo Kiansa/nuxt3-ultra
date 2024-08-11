@@ -17,15 +17,15 @@
     "@nuxt/ui": "^2.18.4",
     "@nuxtjs/i18n": "npm:@nuxtjs/i18n-edge",
     "@pinia-plugin-persistedstate/nuxt": "^1.2.1",
-    "@pinia/nuxt": "^0.5.2",
+    "@pinia/nuxt": "^0.5.3",
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "@tailwindcss/forms": "^0.5.7",
-    "@tailwindcss/typography": "^0.5.13",
+    "@tailwindcss/typography": "^0.5.14",
     "@types/node": "^20",
     "nuxt": "^3.12.4",
     "nuxt-gtag": "^2.1.0",
-    "pinia": "^2.2.0",
+    "pinia": "^2.2.1",
     "prettier": "^3.3.3",
-    "prettier-plugin-tailwindcss": "^0.6.5"
+    "prettier-plugin-tailwindcss": "^0.6.6"
   }
 }
