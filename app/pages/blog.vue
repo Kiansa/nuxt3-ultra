@@ -2,8 +2,8 @@
   <section class="relative px-4">
     <div class="relative mx-auto max-w-7xl">
       <div class="text-center">
-        <h2 class="text-h text-3xl font-extrabold tracking-tight sm:text-4xl">From the blog</h2>
-        <p class="text-p mx-auto mt-3 max-w-2xl text-xl font-semibold sm:mt-4">Latest guides and how to do's for Developers.</p>
+        <h2 class="text-h text-3xl font-extrabold tracking-tight sm:text-4xl">{{ $t('blog.h2') }}</h2>
+        <p class="text-p mx-auto mt-3 max-w-2xl text-xl font-semibold sm:mt-4">{{ $t('blog.description') }}</p>
       </div>
       <ContentList path="/blog" v-slot="{ list }">
         <div class="mx-auto mt-12 grid max-w-lg gap-5 lg:max-w-none lg:grid-cols-3">
