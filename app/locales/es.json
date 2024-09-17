@@ -1,7 +1,12 @@
 {
   "home": "Inicio",
   "about": "Acerca de",
-  "contact": "Póngase en contacto con",
+  "contact": "Póngase en contacto",
   "services": "Servicios",
-  "blog": "Blog"
+  "blog": {
+    "title": "Blog",
+    "description": "Las últimas guías para desarrolladores.",
+    "h2": "Del blog"
+  },
+  "portfolio": "Cartera"
 }
