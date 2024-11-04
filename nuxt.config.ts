@@ -34,42 +34,30 @@ export default defineNuxtConfig({
         autoImports: ['defineStore'],
       },
     ],
-    '@pinia-plugin-persistedstate/nuxt',
+    'pinia-plugin-persistedstate/nuxt',
     'nuxt-gtag',
     '@nuxtjs/i18n',
   ],
 
   i18n: {
-    // compilation: {
-    //   strictMessage: false,
-    //   escapeHtml: true,
-    // },
-    langDir: 'locales',
+    // langDir: 'locales',
     lazy: true,
     baseUrl: process.env.SITE_URL,
-
     locales: [
       { code: 'en', name: 'English', language: 'en-US', file: 'en.json' },
       { code: 'es', name: 'Español', language: 'es-ES', file: 'es.json' },
       { code: 'fr', name: 'Français', language: 'fr-FR', file: 'fr.json' },
     ],
-    // trailingSlash: true,
     debug: false,
     defaultLocale: 'en',
     // strategy: 'no_prefix',
     // strategy: 'prefix',
     // strategy: 'prefix_and_default',
     strategy: 'prefix_except_default',
-    // rootRedirect: '/ja/about-ja',
-    // customRoutes: 'config',
-
-    // differentDomains: true,
-    // skipSettingLocaleOnNavigate: true,
-    // detectBrowserLanguage: false,
     detectBrowserLanguage: {
       useCookie: true,
       cookieKey: 'i18n_redirected',
-      redirectOn: 'root', // recommended
+      redirectOn: 'root',
     },
   },
 

@@ -1,14 +1,38 @@
-/** @type {import('tailwindcss').Config} */
-module.exports = {
-  mode: 'jit',
-  content: ['./components/**/*.{js,vue,ts}', './layouts/**/*.vue', './pages/**/*.vue', './plugins/**/*.{js,ts}', './content/**/*.{md,js,ts}', './nuxt.config.{js,ts}', './app.vue'],
+import type { Config } from 'tailwindcss'
+import defaultTheme from 'tailwindcss/defaultTheme'
+
+export default <Partial<Config>>{
+  content: ['./components/**/**/*.{js,vue,ts}', './layouts/**/*.vue', './pages/**/*.vue', './plugins/**/*.{js,ts}', './content/**/*.{md,js,ts}', './nuxt.config.{js,ts}', './app.vue', './app.config.ts'],
   theme: {
     extend: {
+      colors: {
+        myCustomColor: {
+          50: '#fbf8fc',
+          100: '#f4eff8',
+          200: '#ece2f2',
+          300: '#ddcbe7',
+          400: '#cdb4db',
+          500: '#af88c4',
+          600: '#996db0',
+          700: '#835898',
+          800: '#6e4c7d',
+          900: '#5a3e65',
+          950: '#3d2447',
+        },
+      },
+      backgroundSize: {
+        'size-200': '200% 200%',
+      },
+      backgroundPosition: {
+        'pos-0': '0% 0%',
+        'pos-100': '100% 100%',
+        'pos-200': '200% 200%',
+      },
       backgroundImage: {
         'gradient-conic': 'conic-gradient(var(--tw-gradient-stops))',
       },
       fontFamily: {
-        inter: ['Inter var', 'sans-serif'],
+        sans: ['Inter var', ...defaultTheme.fontFamily.sans],
       },
       screens: {
         '3xl': '2000px',
@@ -37,6 +61,26 @@ module.exports = {
         wide: '0.01em',
         wider: '0.02em',
         widest: '0.4em',
+      },
+      keyFrames: {
+        moveUp: {
+          '0%': { opacity: 1, transform: 'translateX(0px) translateY(0px) scale(1)' },
+          '25%': {
+            opacity: 0,
+            transform: 'translateX(10px) translateY(-10px) scale(0.9)',
+          },
+          '26%': {
+            opacity: 0,
+            transform: 'translateX(-10px) translateY(10px) scale(0.9)',
+          },
+          '55%': {
+            opacity: 1,
+            transform: 'translateX(0px) translateY(0px) scale(1)',
+          },
+        },
+      },
+      animation: {
+        banana: 'moveUp 0.8s linear',
       },
     },
   },
